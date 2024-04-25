@@ -1,0 +1,61 @@
+/* Organize buttons between title of blog */
+
+.sub-posts-heading { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+  }
+
+/* Create properties for each of the form elements to be applied upon rendering under 'posted-blog' class via JS */
+
+article {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.posted-blog h2 {
+  font-size: 1.4rem;
+  padding-bottom: 4px;
+  border-bottom: 3px solid var(--border-color);
+}
+
+.posted-blog h4 {
+  font-weight: 550;
+  font-style: oblique;
+  border-top: 1px solid var(--border-color);
+  padding-top: 3px;
+}
+
+.posted-blog p {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.posted-blog { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border: 5px solid #7393B3;
+  }
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+
+footer ul {
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: 540;
+  font-style: oblique;
+  }

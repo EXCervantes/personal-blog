@@ -1,0 +1,75 @@
+/* Light and dark mode properties with changing text for 'theme-switcher' button */
+
+.dark {
+  --secondary: #708090;
+  --surface: #121212;
+  --primary-text: #c5eef9;
+  --dark-text: "🌞 Light Mode";
+  --border-color: hsl(231, 100%, 93%);
+  --button-color: #001f25;
+}
+
+.light {
+  --secondary: #7393B3;
+  --surface: azure;
+  --primary-text: black;
+  --lit-text: "🌠 Dark Mode";
+  --border-color: #247BA0;
+  --button-color: #247BA0;
+}
+
+.dark #theme-switcher::before {
+  content: var(--dark-text)
+}
+
+.light #theme-switcher::before {
+  content: var(--lit-text);
+}
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--surface);
+    color: var(--primary-text)
+}
+
+/* For all navigation buttons on both pages to keep consistency */
+.nav-bttn {
+    padding: 10px;
+    margin: 24px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: var(--button-color);
+    color: var(--primary-text);
+}
+
+/* For both pages to keep a uniform looking appearance */
+.blog-heading {
+    font-size: 2.4rem;
+    font-weight: 750;
+    padding: 30px;
+}
+
+.heading-img header {
+    width: 640px;
+    height: 360px;
+    object-position: center;
+}
+  
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
