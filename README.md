@@ -2,7 +2,7 @@
 
 ## Description
 
-For this project I created a personal blog website. This site takes input in a form and then renders that data on the following page. This is accomplished by creating the needed respective elements in JavaScript, adding the respective data values into their proper fields under the elements, and then appending those elements to the HTML of the page. Another new feature of a site I tried was implementing a "Dark and Light mode" switch to customize the appearance of a page based on a user's preference.
+For this project I created a personal blog website. This site takes input in a form and then renders that data on the following page. I collected user data with a form, validated it with Javascript, and dynamically rendered it with DOM elements. Another new feature of a site I tried was implementing a "Dark and Light mode" switch to customize the appearance of a page based on a user's preference.
 
 The first thing I did was lay out the HTML of the landing page and creating form elements to take in a user's username, blog post title, and the content of the blog posted. The data was then stored into a JSON array into the user's localStorage using Javascript for it to be called upon in the next page. Once the functions have ran the page automatically loads into the `blog.html` to view the rendered posts.
 
