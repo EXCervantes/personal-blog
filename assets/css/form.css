@@ -7,6 +7,7 @@ header button {
   margin-top: 40px;
 }
 
+/* Center All Page Elements and Blog Image */
 .img-container { 
     display: flex;
     justify-content: center;

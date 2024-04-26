@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: row;
     padding: 40px;
-  }
+}
 
 /* Create properties for each of the form elements to be applied upon rendering under 'posted-blog' class via JS */
 
@@ -41,7 +41,7 @@ article {
     flex-direction: column;
     padding: 25px;
     border: 5px solid #7393B3;
-  }
+}
 
 footer {
     width: 100%;
@@ -51,11 +51,15 @@ footer {
     padding-bottom: 60px;
     align-items: center;
     font-size: 1.3rem;
-  }
+}
 
 footer ul {
   padding: 10px;
   font-size: 1.4rem;
   font-weight: 540;
   font-style: oblique;
-  }
+}
+
+li:hover {
+  transform: scale(1.2);
+}

@@ -29,7 +29,7 @@
 *{
 margin: 0px;
 padding: 0px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: "Fira Code", monospace;
 box-sizing: border-box;
 }
 
@@ -53,6 +53,12 @@ body{
     font-size: 24px;
     background-color: var(--button-color);
     color: var(--primary-text);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.nav-bttn:hover {
+  box-shadow: 3px 3px 3px #aaaaaa;
+  transform: scale(1.1);
 }
 
 /* For both pages to keep a uniform looking appearance */
