@@ -32,8 +32,8 @@ Lastly, at the top of each page is a button labeled "Light Mode" and "Dark Mode"
 
 ### Example of Webpage
 
-![Website Screenshot Page 1](Assets/images/personalblogscreenshot1.jpg)
-![Website Screenshot Page 2](Assets/images/personalblogscreenshot2.jpg)
+![Website Screenshot Page 1](assets/images/personalblogscreenshot1.jpg)
+![Website Screenshot Page 2](assets/images/personalblogscreenshot2.jpg)
 
 ## Credits
 
